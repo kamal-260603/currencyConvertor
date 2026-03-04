@@ -25,7 +25,7 @@ function App() {
       <div className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat '
       style={{backgroundImage:`url('https://images.pexels.com/photos/47344/dollar-currency-money-us-dollar-47344.jpeg')`}}>
         <div className='w-full'>
-          <div className='w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30'>
+          <div className='w-full max-w-lg mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30'>
             <form onSubmit={(e)=>{e.preventDefault();
               convert();
             }}>
